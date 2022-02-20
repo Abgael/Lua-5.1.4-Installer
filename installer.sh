@@ -14,6 +14,6 @@ cd luarocks-3.8.0
 make -j$(nproc)
 sudo make install
 #Instalando alguns modulos básicos
-sudo luarocks install luacheck	#Lua linter
-sudo luarocks install busted		#Unit testing framework
-sudo luarocks install ldoc		#Gerador de documentação
+sudo luarocks install luacheck  #Lua linter
+sudo luarocks install busted    #Unit testing framework
+sudo luarocks install ldoc      #Gerador de documentação
